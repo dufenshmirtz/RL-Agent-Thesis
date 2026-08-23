@@ -12,8 +12,9 @@ The thesis work studies a reinforcement-learning opponent for the custom Unity a
 - `models/` - selected ONNX models used for thesis evaluation and comparison.
 - `media/` - short GIF demonstrations without audio.
 - `demo/README_DEMO.txt` - instructions for the playable Windows demo build.
+- `demo/DIENAMO-RL-Agent-Demo-Windows.zip` - playable Windows demo build, tracked with Git LFS.
 
-The full playable demo build is intentionally not committed to Git because it is large. A local upload-ready package is prepared in `release-assets/DIENAMO-RL-Agent-Demo-Windows.zip`; upload it as a GitHub Release asset if you decide to distribute the demo.
+The playable demo build is large, so it is tracked with Git LFS rather than normal Git storage.
 
 ## Recommended Reading Order
 
@@ -21,7 +22,7 @@ The full playable demo build is intentionally not committed to Git because it is
 2. Watch the GIFs in `media/` to understand the environment and agent behavior.
 3. Review the selected source code in `src/selected/`.
 4. Inspect the trained models in `models/`.
-5. Download the demo build from the GitHub Releases page, if one is published.
+5. Download and extract `demo/DIENAMO-RL-Agent-Demo-Windows.zip` to run the playable Windows demo.
 
 ## Technical Summary
 

@@ -1,7 +1,5 @@
 # Release Assets
 
-Files in this folder are intentionally ignored by Git.
+This folder is reserved for optional future GitHub Release packaging.
 
-Use `DIENAMO-RL-Agent-Demo-Windows.zip` as a GitHub Release asset if you decide to publish the playable thesis demo.
-
-Do not commit the full demo build into normal Git history.
+The playable demo is currently stored in `demo/DIENAMO-RL-Agent-Demo-Windows.zip` and tracked with Git LFS.
