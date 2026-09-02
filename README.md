@@ -39,15 +39,10 @@ The playable demo build is large, so it is tracked with Git LFS rather than norm
 
 This is a focused thesis repository. The full game project is maintained separately:
 
-https://github.com/dufenshmirtz/Head-of-Hell
+https://github.com/dufenshmirtz/DIENAMO
 
 The game repository contains the Unity project and broader D.I.E.N.A.M.O. development history. This thesis repository keeps the academic/agent material easier to review.
-
-## Demo Distribution Note
-
-The demo build is useful for private review and employer evaluation, but it should be distributed thoughtfully because it may contain development-stage game assets and placeholder media. If the project is made fully public, review media and asset licenses first.
 
 ## License
 
 No open-source license is granted for this repository. The material is provided for academic, portfolio, and review purposes only. Do not reuse code, models, media, or game assets without permission from the author/project team.
-
