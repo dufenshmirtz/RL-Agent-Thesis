@@ -43,14 +43,15 @@ The demo applies the default gameplay rules: 100 HP, one round, normal arena, no
 
 Technical note
 --------------
-This demo allows the user to play against 3 final reinforcement learning agents developed for the thesis, the latest the model, the higher the skill. The model was trained with PPO using Unity ML-Agents. The demo selects PvE ML Agent mode, fixes the bot to Player 2, and uses BehaviorParameters in InferenceOnly mode.
+This demo allows the user to play against 3 final reinforcement learning agents developed for the thesis. Later models generally represent later training runs, but the best model depends on the game version and evaluation context. The model was trained with PPO using Unity ML-Agents. The demo selects PvE ML Agent mode, fixes the bot to Player 2, and uses BehaviorParameters in InferenceOnly mode.
 Agent-vs-agent mode can use different selected model slots for Player 1 and Player 2 and does not run training.
 
-The model that was used for the human evaluation and most of the statistics of the report, is AgentSmith2.2
+The model used for the human evaluation and most of the report statistics is AgentSmith2.2.
 
 Disclaimers
 --------------
--As the game is still in development many animations are missing or are incomplete. 
--Agent vs Agent behavior is often prone to certain chaotic behavior due to similar responses and actions.
--AgentSmith3.2 is a later model that was trained after changes in the game environment so it's not guaranteed to better AgentSmith2.2.
--The RL_Demo_Files folder has some filenames derived from the game that formed the basis of the project.
+- The game is still in development, so some animations are missing or incomplete.
+- Agent-vs-agent behavior can appear chaotic because both agents may produce similar responses and actions.
+- AgentSmith3.2 is a later model trained after changes in the game environment, so it is not guaranteed to perform better than AgentSmith2.2 in every comparison.
+- The demo may include temporary placeholder music used during development. That music is not owned by the author/project team and is not licensed for reuse.
+- The RL_Demo_Files folder has some filenames derived from the game that formed the basis of the project.

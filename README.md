@@ -46,3 +46,5 @@ The game repository contains the Unity project and broader D.I.E.N.A.M.O. develo
 ## License
 
 No open-source license is granted for this repository. The material is provided for academic, portfolio, and review purposes only. Do not reuse code, models, media, or game assets without permission from the author/project team.
+
+The playable demo may include temporary placeholder music used during development; that music is not owned by the author/project team and is not licensed for reuse.
